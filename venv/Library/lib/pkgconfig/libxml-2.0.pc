@@ -1,0 +1,11 @@
+prefix=F:/Project/Face Recognition/venv/Library 
+exec_prefix=F:/Project/Face Recognition/venv/Library 
+libdir=F:/Project/Face Recognition/venv/Library/lib 
+includedir=F:/Project/Face Recognition/venv/Library/include 
+modules=0 
+Name: libXML 
+Version: 2.11.5 
+Description: libXML library version2. 
+Requires: 
+Libs: -LF:/Project/Face Recognition/venv/Library/lib -lxml2 -liconv -lz 
+Cflags: -IF:/Project/Face Recognition/venv/Library/include/libxml2 -IF:/Project/Face Recognition/venv/Library/include 

@@ -1,0 +1,10 @@
+prefix=F:/Project/Face Recognition/venv/Library
+exec_prefix=F:/Project/Face Recognition/venv/Library
+libdir=F:/Project/Face Recognition/venv/Library/lib
+includedir=F:/Project/Face Recognition/venv/Library/include
+
+Name: libjpeg
+Description: A SIMD-accelerated JPEG codec that provides the libjpeg API
+Version: 2.1.5.1
+Libs: -L${libdir} -ljpeg
+Cflags: -I${includedir}

@@ -1,0 +1,50 @@
+{
+  "build": "18_win64_mkl",
+  "build_number": 18,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [
+    "liblapacke 3.9.0 18_win64_mkl",
+    "blas * mkl",
+    "libcblas 3.9.0 18_win64_mkl",
+    "liblapack 3.9.0 18_win64_mkl"
+  ],
+  "depends": [
+    "mkl 2022.1.0 h6a75c08_874"
+  ],
+  "extracted_package_dir": "C:\\Users\\ACER\\miniconda3\\pkgs\\libblas-3.9.0-18_win64_mkl",
+  "features": "",
+  "files": [
+    "Library/bin/libblas.dll",
+    ".nonadmin"
+  ],
+  "fn": "libblas-3.9.0-18_win64_mkl.conda",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "C:\\Users\\ACER\\miniconda3\\pkgs\\libblas-3.9.0-18_win64_mkl",
+    "type": 1
+  },
+  "md5": "b241da5b7a888f72bb3c3e82747334f4",
+  "name": "libblas",
+  "package_tarball_full_path": "C:\\Users\\ACER\\miniconda3\\pkgs\\libblas-3.9.0-18_win64_mkl.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/libblas.dll",
+        "path_type": "hardlink",
+        "sha256": "ffecdde96953a5e999c1b9ada28a59da584de6bd9441c81d341e3a5f2dcb7f86",
+        "sha256_in_prefix": "ffecdde96953a5e999c1b9ada28a59da584de6bd9441c81d341e3a5f2dcb7f86",
+        "size_in_bytes": 25820688
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5aef8d69197108f3c320a5d4ad4d19ab9c809cdbbf731c7ab988c227de42d6b5",
+  "size": 3656012,
+  "subdir": "win-64",
+  "timestamp": 1693952074690,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/libblas-3.9.0-18_win64_mkl.conda",
+  "version": "3.9.0"
+}
